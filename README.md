@@ -22,14 +22,16 @@ pip install mpi4py
 # 运行
 
 ### 运行基于秘密共享的分布式XGBoost算法，请执行
-'''bash
+```bash
 mpiexec -n 5 python VerticalXGBoost.py
-'''
+
+```
 
 ### 运行经典XGBoost算法，请执行
-'''bash
+```bash
 python XGBoost.py
-'''
+
+```
 
 ## 感谢
 在实现过程中，我们的代码主要基于Lunchen Xie的[MP-FedXGB](https://github.com/HikariX/MP-FedXGB),非常感谢这些作者的工作.
