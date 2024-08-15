@@ -21,13 +21,13 @@ pip install mpi4py
 
 # 运行
 
-### 运行基于秘密共享的分布式XGBoost算法，请执行
+##### 运行基于秘密共享的分布式XGBoost算法，请执行
 ```bash
 mpiexec -n 5 python VerticalXGBoost.py
 
 ```
 
-### 运行经典XGBoost算法，请执行
+##### 运行经典XGBoost算法，请执行
 ```bash
 python XGBoost.py
 
