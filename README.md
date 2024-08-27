@@ -4,12 +4,13 @@
 
 The code and data have been uploaded, and the README is being prepared...
 
-# 准备 Requirement
+# 准备
 ```bash
 pip install xgboost
 pip install scikit-learn
 pip install numpy
 pip install mpi4py
+pip install pandas
 ```
 
 # 说明
